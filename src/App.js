@@ -77,7 +77,7 @@ function App() {
       <ul>
         {items.map((item) => {
           return (
-            <div>
+            <div className="todo-item">
               <li key={item.id} onClick={() => setShowEdit(item.id)}>
                 {item.value}
                 <button
